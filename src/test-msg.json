@@ -1,0 +1,62 @@
+{
+	"status": {
+		"code": "0",
+		"msg": "OK",
+		"credits": "1",
+		"remaining_credits": "39992"
+	},
+	"model": "general_en",
+	"score_tag": "P+",
+	"agreement": "AGREEMENT",
+	"subjectivity": "SUBJECTIVE",
+	"confidence": "100",
+	"irony": "NONIRONIC",
+	"sentence_list": [{
+		"text": "I just love McDonalds",
+		"inip": "0",
+		"endp": "20",
+		"bop": "y",
+		"confidence": "100",
+		"score_tag": "P+",
+		"agreement": "AGREEMENT",
+		"segment_list": [{
+			"text": "I just love McDonalds",
+			"segment_type": "main",
+			"inip": "0",
+			"endp": "20",
+			"confidence": "100",
+			"score_tag": "P+",
+			"agreement": "AGREEMENT",
+			"polarity_term_list": [{
+				"text": "love@V",
+				"inip": "7",
+				"endp": "10",
+				"confidence": "100",
+				"score_tag": "P+",
+				"sentimented_entity_list": [{
+					"form": "McDonald",
+					"id": "e22742b00a",
+					"variant": "McDonalds",
+					"inip": "12",
+					"endp": "20",
+					"type": "Top>Person>LastName",
+					"score_tag": "P+"
+				}]
+			}]
+		}],
+		"sentimented_entity_list": [{
+			"form": "McDonald",
+			"id": "e22742b00a",
+			"type": "Top>Person>LastName",
+			"score_tag": "P+"
+		}],
+		"sentimented_concept_list": []
+	}],
+	"sentimented_entity_list": [{
+		"form": "McDonald",
+		"id": "e22742b00a",
+		"type": "Top>Person>LastName",
+		"score_tag": "P+"
+	}],
+	"sentimented_concept_list": []
+}
