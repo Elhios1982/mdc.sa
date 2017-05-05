@@ -19,7 +19,12 @@ shinyServer(function(input, output) {
   #})
   
   output$textResult <- renderText({
-    orchestrator(input$phrase)
+    switch(orchestrator(input$phrase), 
+           "P+" = "Very Positive",
+           P = "Positive",
+           "N+" = "Very Negative",
+           N = "Negative",
+           NONE = "Neutral")
   })
   
 })
